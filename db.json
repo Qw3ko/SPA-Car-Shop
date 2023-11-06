@@ -1,0 +1,39 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Honda Civic",
+      "price": 20000,
+      "color": "Красный",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR4Lxn1M5CIa4P09NhACnTpCHRQPGZ9ff5pa1FpmDMTuzqOg4sZ"
+    },
+    {
+      "id": 2,
+      "name": "Ford Mustang",
+      "price": 19000,
+      "color": "Металический",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRTHUhQyXi7d20kzk1rTILCA7QgQR-NVCRimDQbTM_zotN-gp2-"
+    },
+    {
+      "id": 3,
+      "name": "Hyundai Elantra",
+      "price": 30000,
+      "color": "Серый",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmNwKM78VKZDZpgaN3FZ5he6kRHa-r0KpzSIDo2uaGhzQSbksH"
+    },
+    {
+      "name": "Ford F-150",
+      "price": "250000",
+      "color": "Синий",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEayAt4VEaXI9eKNfy0PJ92kYgnZxLhHxbNHSEWsKM2shby3Mw",
+      "id": 4
+    },
+    {
+      "name": "Cr v",
+      "price": "132323",
+      "color": "Серый",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTwi7nfJbOh3SVW2XNY_kPgRIph0boDyZNU_KuQVPkOYHtSCBe",
+      "id": 5
+    }
+  ]
+}

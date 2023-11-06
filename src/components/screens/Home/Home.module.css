@@ -1,0 +1,51 @@
+.container {
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.layout {
+    display: grid;
+    flex-wrap: wrap; 
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 50px 360px;
+    grid-gap: 1.5rem;
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(5%);
+    animation: show 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show{
+    from {
+        transform: translateY(5%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.search {
+    width: 200px;
+}
+
+.aside {
+    max-width: 1110px;
+}
+

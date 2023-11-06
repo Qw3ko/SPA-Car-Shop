@@ -1,0 +1,43 @@
+header {
+    display: block;
+    position: sticky;
+    top: 0px;
+    background-color: #444;
+    margin-bottom: 1.5rem;
+}
+
+.navContainer {
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 16px;
+}
+
+.title {
+    color: #fff;
+    padding-top: 6px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btnMenu {
+    color: #fff;
+    text-decoration: none;
+    background-color: gray;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 5px 10px;
+    margin-right: 14px;
+}
+
+.btnMenu:hover {
+    background-color: rgb(114, 114, 114);
+}
